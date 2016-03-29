@@ -15,6 +15,7 @@
  */
 - (void)initializeMindMapView
 {
+    
     //加载背景视图
 
     mindMapBackgroundView = [[MindMapBackgroundView alloc] initWithFrame:CGRectMake( 0, 0, 3 * ScreenWidth, 3 * ScreenHeight)];
