@@ -10,10 +10,12 @@
 
 导图初始化方法
 
-/**
- *  加载MindMap背景视图
- */
+
+
+//加载MindMap背景视图
+
 - (void)initializeMindMapView
+
 {
     
     //加载背景视图
