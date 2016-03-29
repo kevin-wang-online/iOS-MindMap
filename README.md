@@ -16,10 +16,10 @@
 - (void)initializeMindMapView
 {
     //加载背景视图
-    mindMapBackgroundView = [[MindMapBackgroundView alloc] initWithFrame:CGRectMake( 0, 0, 3 * ScreenWidth, 3 * ScreenHeight)];
 
+    mindMapBackgroundView = [[MindMapBackgroundView alloc] initWithFrame:CGRectMake( 0, 0, 3 * ScreenWidth, 3 * ScreenHeight)];
+    
     mindMapScrollView = [[SMScrollView alloc] initWithFrame:self.view.bounds];
-   
    
     //背景色
     
