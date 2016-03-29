@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA34B031CAA138800619195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B021CAA138800619195 /* main.m */; };
+		ABA34B061CAA138800619195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B051CAA138800619195 /* AppDelegate.m */; };
+		ABA34B091CAA138800619195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B081CAA138800619195 /* ViewController.m */; };
+		ABA34B0C1CAA138800619195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA34B0A1CAA138800619195 /* Main.storyboard */; };
+		ABA34B0E1CAA138800619195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA34B0D1CAA138800619195 /* Assets.xcassets */; };
+		ABA34B111CAA138800619195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA34B0F1CAA138800619195 /* LaunchScreen.storyboard */; };
+		ABA34B1C1CAA138800619195 /* MindMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B1B1CAA138800619195 /* MindMapTests.m */; };
+		ABA34B271CAA138800619195 /* MindMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B261CAA138800619195 /* MindMapUITests.m */; };
+		ABA34B391CAA143900619195 /* backgroundNode.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA34B381CAA143900619195 /* backgroundNode.png */; };
+		ABA34B3C1CAA145900619195 /* SMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B3B1CAA145900619195 /* SMScrollView.m */; };
+		ABA34B431CAA146300619195 /* MindMapBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B3E1CAA146300619195 /* MindMapBackgroundView.m */; };
+		ABA34B441CAA146300619195 /* MindMapNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B401CAA146300619195 /* MindMapNodeView.m */; };
+		ABA34B451CAA146300619195 /* MindMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B421CAA146300619195 /* MindMapViewManager.m */; };
+		ABA34B491CAA148000619195 /* MindMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B471CAA148000619195 /* MindMapViewController.m */; };
+		ABA34B4A1CAA148000619195 /* MindMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA34B481CAA148000619195 /* MindMapViewController.xib */; };
+		ABA34B511CAA157B00619195 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA34B501CAA157B00619195 /* UIViewExt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA34B181CAA138800619195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA34AF61CAA138800619195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA34AFD1CAA138800619195;
+			remoteInfo = MindMap;
+		};
+		ABA34B231CAA138800619195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA34AF61CAA138800619195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA34AFD1CAA138800619195;
+			remoteInfo = MindMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA34AFE1CAA138800619195 /* MindMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA34B021CAA138800619195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA34B041CAA138800619195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABA34B051CAA138800619195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABA34B071CAA138800619195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABA34B081CAA138800619195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABA34B0B1CAA138800619195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA34B0D1CAA138800619195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA34B101CAA138800619195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA34B121CAA138800619195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA34B171CAA138800619195 /* MindMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA34B1B1CAA138800619195 /* MindMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindMapTests.m; sourceTree = "<group>"; };
+		ABA34B1D1CAA138800619195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA34B221CAA138800619195 /* MindMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA34B261CAA138800619195 /* MindMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindMapUITests.m; sourceTree = "<group>"; };
+		ABA34B281CAA138800619195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA34B381CAA143900619195 /* backgroundNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundNode.png; sourceTree = "<group>"; };
+		ABA34B3A1CAA145900619195 /* SMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMScrollView.h; sourceTree = "<group>"; };
+		ABA34B3B1CAA145900619195 /* SMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMScrollView.m; sourceTree = "<group>"; };
+		ABA34B3D1CAA146300619195 /* MindMapBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindMapBackgroundView.h; sourceTree = "<group>"; };
+		ABA34B3E1CAA146300619195 /* MindMapBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindMapBackgroundView.m; sourceTree = "<group>"; };
+		ABA34B3F1CAA146300619195 /* MindMapNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindMapNodeView.h; sourceTree = "<group>"; };
+		ABA34B401CAA146300619195 /* MindMapNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindMapNodeView.m; sourceTree = "<group>"; };
+		ABA34B411CAA146300619195 /* MindMapViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindMapViewManager.h; sourceTree = "<group>"; };
+		ABA34B421CAA146300619195 /* MindMapViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindMapViewManager.m; sourceTree = "<group>"; };
+		ABA34B461CAA148000619195 /* MindMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindMapViewController.h; sourceTree = "<group>"; };
+		ABA34B471CAA148000619195 /* MindMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindMapViewController.m; sourceTree = "<group>"; };
+		ABA34B481CAA148000619195 /* MindMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MindMapViewController.xib; sourceTree = "<group>"; };
+		ABA34B4B1CAA14CF00619195 /* Contants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contants.h; sourceTree = "<group>"; };
+		ABA34B4C1CAA14CF00619195 /* MacroDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefination.h; sourceTree = "<group>"; };
+		ABA34B4D1CAA14CF00619195 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ABA34B4F1CAA157B00619195 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		ABA34B501CAA157B00619195 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA34AFB1CAA138800619195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA34B141CAA138800619195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA34B1F1CAA138800619195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA34AF51CAA138800619195 = {
+			isa = PBXGroup;
+			children = (
+				ABA34B001CAA138800619195 /* MindMap */,
+				ABA34B1A1CAA138800619195 /* MindMapTests */,
+				ABA34B251CAA138800619195 /* MindMapUITests */,
+				ABA34AFF1CAA138800619195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA34AFF1CAA138800619195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34AFE1CAA138800619195 /* MindMap.app */,
+				ABA34B171CAA138800619195 /* MindMapTests.xctest */,
+				ABA34B221CAA138800619195 /* MindMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA34B001CAA138800619195 /* MindMap */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B341CAA139800619195 /* 思维导图 */,
+				ABA34B041CAA138800619195 /* AppDelegate.h */,
+				ABA34B051CAA138800619195 /* AppDelegate.m */,
+				ABA34B071CAA138800619195 /* ViewController.h */,
+				ABA34B081CAA138800619195 /* ViewController.m */,
+				ABA34B0A1CAA138800619195 /* Main.storyboard */,
+				ABA34B0D1CAA138800619195 /* Assets.xcassets */,
+				ABA34B0F1CAA138800619195 /* LaunchScreen.storyboard */,
+				ABA34B121CAA138800619195 /* Info.plist */,
+				ABA34B011CAA138800619195 /* Supporting Files */,
+			);
+			path = MindMap;
+			sourceTree = "<group>";
+		};
+		ABA34B011CAA138800619195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B4E1CAA156400619195 /* UIViewExt */,
+				ABA34B4B1CAA14CF00619195 /* Contants.h */,
+				ABA34B4C1CAA14CF00619195 /* MacroDefination.h */,
+				ABA34B4D1CAA14CF00619195 /* PrefixHeader.pch */,
+				ABA34B021CAA138800619195 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA34B1A1CAA138800619195 /* MindMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B1B1CAA138800619195 /* MindMapTests.m */,
+				ABA34B1D1CAA138800619195 /* Info.plist */,
+			);
+			path = MindMapTests;
+			sourceTree = "<group>";
+		};
+		ABA34B251CAA138800619195 /* MindMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B261CAA138800619195 /* MindMapUITests.m */,
+				ABA34B281CAA138800619195 /* Info.plist */,
+			);
+			path = MindMapUITests;
+			sourceTree = "<group>";
+		};
+		ABA34B341CAA139800619195 /* 思维导图 */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B351CAA13B000619195 /* 子视图 */,
+				ABA34B371CAA13B400619195 /* 图片资源 */,
+				ABA34B361CAA13B200619195 /* 滚动辅助类 */,
+				ABA34B461CAA148000619195 /* MindMapViewController.h */,
+				ABA34B471CAA148000619195 /* MindMapViewController.m */,
+				ABA34B481CAA148000619195 /* MindMapViewController.xib */,
+			);
+			name = "思维导图";
+			sourceTree = "<group>";
+		};
+		ABA34B351CAA13B000619195 /* 子视图 */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B3D1CAA146300619195 /* MindMapBackgroundView.h */,
+				ABA34B3E1CAA146300619195 /* MindMapBackgroundView.m */,
+				ABA34B3F1CAA146300619195 /* MindMapNodeView.h */,
+				ABA34B401CAA146300619195 /* MindMapNodeView.m */,
+				ABA34B411CAA146300619195 /* MindMapViewManager.h */,
+				ABA34B421CAA146300619195 /* MindMapViewManager.m */,
+			);
+			name = "子视图";
+			sourceTree = "<group>";
+		};
+		ABA34B361CAA13B200619195 /* 滚动辅助类 */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B3A1CAA145900619195 /* SMScrollView.h */,
+				ABA34B3B1CAA145900619195 /* SMScrollView.m */,
+			);
+			name = "滚动辅助类";
+			sourceTree = "<group>";
+		};
+		ABA34B371CAA13B400619195 /* 图片资源 */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B381CAA143900619195 /* backgroundNode.png */,
+			);
+			name = "图片资源";
+			sourceTree = "<group>";
+		};
+		ABA34B4E1CAA156400619195 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				ABA34B4F1CAA157B00619195 /* UIViewExt.h */,
+				ABA34B501CAA157B00619195 /* UIViewExt.m */,
+			);
+			name = UIViewExt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA34AFD1CAA138800619195 /* MindMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA34B2B1CAA138800619195 /* Build configuration list for PBXNativeTarget "MindMap" */;
+			buildPhases = (
+				ABA34AFA1CAA138800619195 /* Sources */,
+				ABA34AFB1CAA138800619195 /* Frameworks */,
+				ABA34AFC1CAA138800619195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindMap;
+			productName = MindMap;
+			productReference = ABA34AFE1CAA138800619195 /* MindMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA34B161CAA138800619195 /* MindMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA34B2E1CAA138800619195 /* Build configuration list for PBXNativeTarget "MindMapTests" */;
+			buildPhases = (
+				ABA34B131CAA138800619195 /* Sources */,
+				ABA34B141CAA138800619195 /* Frameworks */,
+				ABA34B151CAA138800619195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA34B191CAA138800619195 /* PBXTargetDependency */,
+			);
+			name = MindMapTests;
+			productName = MindMapTests;
+			productReference = ABA34B171CAA138800619195 /* MindMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA34B211CAA138800619195 /* MindMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA34B311CAA138800619195 /* Build configuration list for PBXNativeTarget "MindMapUITests" */;
+			buildPhases = (
+				ABA34B1E1CAA138800619195 /* Sources */,
+				ABA34B1F1CAA138800619195 /* Frameworks */,
+				ABA34B201CAA138800619195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA34B241CAA138800619195 /* PBXTargetDependency */,
+			);
+			name = MindMapUITests;
+			productName = MindMapUITests;
+			productReference = ABA34B221CAA138800619195 /* MindMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA34AF61CAA138800619195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FreeWave;
+				TargetAttributes = {
+					ABA34AFD1CAA138800619195 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ABA34B161CAA138800619195 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ABA34AFD1CAA138800619195;
+					};
+					ABA34B211CAA138800619195 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ABA34AFD1CAA138800619195;
+					};
+				};
+			};
+			buildConfigurationList = ABA34AF91CAA138800619195 /* Build configuration list for PBXProject "MindMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA34AF51CAA138800619195;
+			productRefGroup = ABA34AFF1CAA138800619195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA34AFD1CAA138800619195 /* MindMap */,
+				ABA34B161CAA138800619195 /* MindMapTests */,
+				ABA34B211CAA138800619195 /* MindMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA34AFC1CAA138800619195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA34B111CAA138800619195 /* LaunchScreen.storyboard in Resources */,
+				ABA34B4A1CAA148000619195 /* MindMapViewController.xib in Resources */,
+				ABA34B0E1CAA138800619195 /* Assets.xcassets in Resources */,
+				ABA34B0C1CAA138800619195 /* Main.storyboard in Resources */,
+				ABA34B391CAA143900619195 /* backgroundNode.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA34B151CAA138800619195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA34B201CAA138800619195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA34AFA1CAA138800619195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA34B431CAA146300619195 /* MindMapBackgroundView.m in Sources */,
+				ABA34B441CAA146300619195 /* MindMapNodeView.m in Sources */,
+				ABA34B091CAA138800619195 /* ViewController.m in Sources */,
+				ABA34B061CAA138800619195 /* AppDelegate.m in Sources */,
+				ABA34B511CAA157B00619195 /* UIViewExt.m in Sources */,
+				ABA34B031CAA138800619195 /* main.m in Sources */,
+				ABA34B3C1CAA145900619195 /* SMScrollView.m in Sources */,
+				ABA34B451CAA146300619195 /* MindMapViewManager.m in Sources */,
+				ABA34B491CAA148000619195 /* MindMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA34B131CAA138800619195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA34B1C1CAA138800619195 /* MindMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA34B1E1CAA138800619195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA34B271CAA138800619195 /* MindMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA34B191CAA138800619195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA34AFD1CAA138800619195 /* MindMap */;
+			targetProxy = ABA34B181CAA138800619195 /* PBXContainerItemProxy */;
+		};
+		ABA34B241CAA138800619195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA34AFD1CAA138800619195 /* MindMap */;
+			targetProxy = ABA34B231CAA138800619195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA34B0A1CAA138800619195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA34B0B1CAA138800619195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA34B0F1CAA138800619195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA34B101CAA138800619195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA34B291CAA138800619195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABA34B2A1CAA138800619195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA34B2C1CAA138800619195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/fwm68/Documents/框架代码/MindMap/MindMap/PrefixHeader.pch";
+				INFOPLIST_FILE = MindMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwm.MindMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABA34B2D1CAA138800619195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/fwm68/Documents/框架代码/MindMap/MindMap/PrefixHeader.pch";
+				INFOPLIST_FILE = MindMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwm.MindMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABA34B2F1CAA138800619195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwm.MindMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindMap.app/MindMap";
+			};
+			name = Debug;
+		};
+		ABA34B301CAA138800619195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwm.MindMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindMap.app/MindMap";
+			};
+			name = Release;
+		};
+		ABA34B321CAA138800619195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MindMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwm.MindMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MindMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABA34B331CAA138800619195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MindMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fwm.MindMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MindMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA34AF91CAA138800619195 /* Build configuration list for PBXProject "MindMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA34B291CAA138800619195 /* Debug */,
+				ABA34B2A1CAA138800619195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA34B2B1CAA138800619195 /* Build configuration list for PBXNativeTarget "MindMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA34B2C1CAA138800619195 /* Debug */,
+				ABA34B2D1CAA138800619195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA34B2E1CAA138800619195 /* Build configuration list for PBXNativeTarget "MindMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA34B2F1CAA138800619195 /* Debug */,
+				ABA34B301CAA138800619195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA34B311CAA138800619195 /* Build configuration list for PBXNativeTarget "MindMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA34B321CAA138800619195 /* Debug */,
+				ABA34B331CAA138800619195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA34AF61CAA138800619195 /* Project object */;
+}
